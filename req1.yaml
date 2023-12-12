@@ -20,7 +20,7 @@
 
    - name: Check result
      ios_command:
-       commands: ip access-list extended REQ1 
+       commands: show ip access-list extended REQ1 
      register: result
      tags: show
 
