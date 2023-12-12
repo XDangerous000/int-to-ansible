@@ -19,6 +19,10 @@
        lines:
          - access-class VTY in
 
+   - name: Adding banner
+     ios_config:
+       commands: banner motd «Mihailov Dmitriy RI-400017»
+         
    - name: Check result
      ios_command:
        commands: sh run | begin line vty 0 4
