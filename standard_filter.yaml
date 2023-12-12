@@ -21,7 +21,8 @@
 
    - name: Adding banner
      ios_config:
-       commands: banner motd «Mihailov Dmitriy RI-400017»
+       lines: 
+         - banner motd «Mihailov Dmitriy RI-400017»
          
    - name: Check result
      ios_command:
